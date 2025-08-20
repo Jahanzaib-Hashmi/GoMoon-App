@@ -1,6 +1,7 @@
 # gomoon
 
 A new Flutter project.
+A Front-end using Flutter.
 
 ## Getting Started
 
