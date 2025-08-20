@@ -44,16 +44,7 @@ class HomePage extends StatelessWidget {
   }
 
   Widget _pageTitle() {
-    return  Container(
-      height: _deviceHeight * 0.1,
-      width: _deviceWidth * 0.1,
-      decoration: BoxDecoration(
-        image: DecorationImage(
-            fit: BoxFit.fill,
-            image: AssetImage('assets/goMoonGalaxy.png')
-        ),
-      ),
-    );
+    return const Text('#GoMoon', style: TextStyle(color: Colors.white, fontSize: 70, fontWeight: FontWeight.w800),);
   }
 
   Widget _astroImageWidget() {
